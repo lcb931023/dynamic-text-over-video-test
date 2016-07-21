@@ -24,7 +24,7 @@
 
 Text effects
 
-COD inspiration: https://www.youtube.com/watch?v=4G2GdTIRCIM&feature=youtu.be&t=53
+COD inspiration: http://www.infinitelooper.com/?v=4G2GdTIRCIM&p=n#/53;56
 
 Codepen samples
 

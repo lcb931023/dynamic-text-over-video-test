@@ -1,7 +1,7 @@
 const resolver = {
   resolve: function resolve(options, callback) {
     // The string to resolve
-    const resolveString = options.resolveString || options.element.getAttribute('data-target-resolver');
+    const resolveString = options.resolveString || options.element.getAttribute('data-text');
     const combinedOptions = Object.assign({}, options, {resolveString: resolveString});
 
     function getRandomInteger(min, max) {
