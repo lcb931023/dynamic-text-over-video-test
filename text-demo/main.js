@@ -4,9 +4,9 @@ const options = {
   // Initial position
   offset: 0,
   // Timeout between each random character
-  timeout: 5,
+  timeout: 15,
   // Number of random characters to show
-  iterations: 10,
+  iterations: 4,
   // Random characters to pick from
   characters: characters
 };
