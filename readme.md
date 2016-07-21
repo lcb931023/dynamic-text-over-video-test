@@ -29,8 +29,4 @@ COD inspiration: https://www.youtube.com/watch?v=4G2GdTIRCIM&feature=youtu.be&t=
 Codepen samples
 
 http://codepen.io/qkevinto/pen/WQVNWO
-
-http://codepen.io/RonaldsVilcins/pen/jPXBJO
 http://codepen.io/voronianski/pen/aicwk
-http://codepen.io/thiagoteles/pen/ogoxLw
-http://codepen.io/boo0330/pen/GJLmZy
