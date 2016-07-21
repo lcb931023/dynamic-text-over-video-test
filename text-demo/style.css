@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'TradeGothic';
+  src: url('TradeGothicLTStd-Light.otf') format('opentype');
+}
+* {
+  font-family: 'TradeGothic', cursive;
+}
+.base {
+  position: absolute;
+  z-index: 0;
+}
+.texts {
+  position: absolute;
+  z-index: 1;
+}
+.comp {
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+}
+.texts span {
+  position: absolute;
+  white-space: nowrap;
+}
+.date, .location, .operative-area, .origin, .clearance {
+  font-size: 20px;
+}
+.operative-title {
+  font-size: 17px;
+}
+.operative-name {
+  font-size: 40px;
+  left: 226;
+}
+/* Positioning */
+.date {
+  left: 105px;
+  top: 490px;
+}
+.location {
+  left: 325px;
+  top: 490px;
+}
+.operative-title {
+  top: 568px;
+  left: 226px;
+}
+.operative-name {
+  left: 226px;
+  top: 582px;
+}
+.operative-area {
+  left: 89px;
+  top: 690px;
+}
+.origin {
+  left: 243px;
+  top: 690px;
+}
+.clearance {
+  left: 382px;
+  top: 690px;
+}
