@@ -30,3 +30,9 @@ Codepen samples
 
 http://codepen.io/qkevinto/pen/WQVNWO
 http://codepen.io/voronianski/pen/aicwk
+
+
+- typewriter one could try fade, but decent with timeout = 55
+
+- resolver needs more work to be less jarring
+  - try using oblique strategy's glitcher. Preserving space (or non-letter chars help recognizing a lot)
