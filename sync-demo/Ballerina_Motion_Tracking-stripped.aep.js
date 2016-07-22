@@ -1,4 +1,4 @@
-{
+var AE_EXPORT = {
     "project": {
         "items": [
             {
