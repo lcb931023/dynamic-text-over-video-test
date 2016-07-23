@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Video Sync</title>
-    <style media="screen">
-      div {
-        font-size: 32px;
-        font-weight: bold;
-        font-family: monospace;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <video id="video" src="ballerina-crop.webm" controls></video>
-    <div id="popcorn-footnote" style="float: right;"></div>
-    <div id="pleb-footnote" style="float: left;"></div>
+    <video id="video" src="ballerina-crop.webm" controls preload="auto" webkit-playsinline></video>
+    <div class="stage">
+      <div class="marker">
+        <div class="marker-position-hack">
+
+        </div>
+      </div>
+    </div>
     <script src="popcorn-complete.min.js" charset="utf-8"></script>
-    <script src="Ballerina_Motion_Tracking-stripped.aep.js" charset="utf-8"></script>
-    <script src="main.js" charset="utf-8"></script>
+    <!-- <script src="Ballerina_Motion_Tracking-stripped.aep.js" charset="utf-8"></script> -->
+    <script src="positions-per-frame.js" charset="utf-8"></script>
+    <script src="main-setInterval.js" charset="utf-8"></script>
   </body>
 </html>

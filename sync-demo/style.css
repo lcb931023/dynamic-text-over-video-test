@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.marker {
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: monospace;
+  /*transition: transform 0.2s;*/
+}
+.marker-position-hack {
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 10px;
+  height: 10px;
+}
+
+#video {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.stage {
+  z-index: 2;
+}

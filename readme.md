@@ -11,10 +11,11 @@
   - [ ] Animation lib to interpret AE export?
     - jam3 used Greensock for https://medium.com/@Jam3/mtchmv-a54624f6232#.z2qarpge8
 
+================
+
 Approach 1:
 Set position of thing per-frame
-  - [ ] setInterval
-  - [ ] popcorn adds listener for every frame, totalling 509 of them.
+  - Popcorn is moot. BUT requestAnimationFrame rules! Just check the video's currentTime and calculate which frame to pull out for that. Works like magic.
 
 
 Approach 2:
