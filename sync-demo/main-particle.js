@@ -75,7 +75,6 @@ function animate() {
   // options.position.y = position.y;
   options.position.x = position.x * STAGE_WIDTH;
   options.position.y = (1 - position.y) * STAGE_HEIGHT;
-  console.log(options.position);
   if (delta > 0) {
     for (var x = 0; x < spawnerOptions.spawnRate * delta; x++) {
       // Yep, that's really it.	Spawning particles is super cheap, and once you spawn them, the rest of

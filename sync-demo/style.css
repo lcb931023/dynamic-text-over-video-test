@@ -31,3 +31,8 @@ html, body {
 .stage canvas {
   position: absolute;
 }
+
+.credit {
+  position: absolute;
+  bottom: 0;
+}

@@ -43,6 +43,8 @@ http://codepen.io/voronianski/pen/aicwk
 - resolver needs more work to be less jarring
   - try using oblique strategy's glitcher. Preserving space (or non-letter chars help recognizing a lot)
 
+Oblique strategy style: either changing per-word at once, or grow and shuffle a few letters out 
+
 
 
 
