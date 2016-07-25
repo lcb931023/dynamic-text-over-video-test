@@ -4,6 +4,7 @@ html, body {
 }
 
 .marker {
+  display: none;
   position: absolute;
   font-size: 12px;
   font-weight: bold;
@@ -25,4 +26,8 @@ html, body {
 
 .stage {
   z-index: 2;
+}
+
+.stage canvas {
+  position: absolute;
 }
